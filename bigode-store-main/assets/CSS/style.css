@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Lexend", sans-serif;
+}
+
+body {
+    background: #F5F4F9;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    background-image: url(../img/salsicha.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 92px; 
+}
+
+header .navbar nav ul{
+    width: 338px;
+    height: 47px;
+    color: black;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar nav ul li a {
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+}
+
+header .navbar .btns {
+    width: 196px;
+    height: 38px;
+    gap: 16px;
+    display: flex;
+}
+
+header .navbar .btns .btn1 {
+    width: 90px;
+    height: 38px;
+    color: #fff;
+    border-radius: 8px;
+    padding: 8px 16px;
+    gap: 10px;
+    background-color: #3B44F6;
+    border: 1px #3B44F6 solid;
+}
+
+header .navbar .btns .btn2 {
+    width: 90px;
+    height: 38px;
+    padding: 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px #fff solid;
+
+    opacity: 0px;
+    background-color: #ffffff00;
+    color: #fff;
+}
+
+header .promotion-carousel {
+    width: 1280px;
+    height: 720px;
+    padding: 60px;
+    
+}
+
+header .promotion-carousel .promo-3 .title-cta {
+    display: flex;
+    flex-direction: column;
+    width: 438px;
+    height: 79px;
+    top: 197px;
+    left: 95px;
+    gap: 64px;
+}
+
+header .promotion-carousel .promo-3 .title-cta h1 {
+    font-weight: 600px;
+    font-size: 60px;
+    color: #fff;
+}
+
+header .promotion-carousel .promo-3 .title-cta h2{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #fff;
+}
+
+header .promotion-carousel .promo-3 .title-cta .cta-button button{
+    width: Hug (162px)px;
+    height: Hug (59px)px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px #3B44F6 solid;
+    background-color: #3B44F6;
+    color: #fff;
+}
+
+main {
+    width: Hug (1,280px)px;
+    height: Hug (487px)px;
+    top: 720px;
+    padding: 70px 182px;
+    gap: 60px;
+}
+main .why-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 1,280px;
+    height: 487px;
+    top: 720px;
+    padding: 70px 182px;
+    gap: 60px;
+    
+}
+
+main .why-us .title {
+   width: 473px;
+   height: 120px;
+   gap: 16px;
+}
+
+main .why-us .title h2 {
+    font-size: 36px;
+    font-family: Lexend;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+
+}
+
+main .why-us .title p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+main .why-us .cards {
+    display: flex;
+    width: Hug (916px)px;
+    height: Hug (167px)px;
+    gap: 83px;
+}
+
+main .why-us .cards .card {
+    width: 250px;
+    height: 167px;
+    gap: 21px;
+}
+
+main .why-us .cards .card p {
+    font-family: Lexend;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+}
+
+main .games-genre {
+    width: 1,280px;
+    height: 323px;
+    top: 1207px;
+    padding: 40px 92px;
+    gap: 24px;
+
+}
+
+main .games-genre .title {
+    width: 1,096px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+main .games-genre .title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+}
+
+main .games-genre .title a {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: right;
+}
+
+main .games-genre .cards {
+    display: flex;
+    width: 1,094px;
+    height: 169px;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+main .games-genre .cards P {
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+
+}
+
+main .games-genre .cards .card-Strategy{
+    background-image: url(../img/games-genre/Strategy.svg);
+    width: 169px;
+    height: 169px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .games-genre .cards .card-FPS{
+    background-image: url(../img/games-genre/FPS.SVG);
+    width: 169px;
+    height: 169px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .games-genre .cards .card-RPG{
+    background-image: url(../img/games-genre/RPG.SVG);
+    width: 169px;
+    height: 169px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .games-genre .cards .card-Puzzle{
+    background-image: url(../img/games-genre/PUZZLE.SVG);
+    width: 169px;
+    height: 169px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .games-genre .cards .card-Role-Playing{
+    background-image: url(../img/games-genre/Role\ Playing.SVG);
+    width: 169px;
+    height: 169px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .games-genre .cards .card-Sports{
+    background-image: url(../img/games-genre/SPORTS.SVG);
+    width: 169px;
+    height: 169px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .best-seller {
+    display: flex;
+    flex-direction: column;
+    width: 1,280px;
+    height: 512px;
+    top: 1207px;
+    padding: 40px 92px;
+    gap: 24px;
+}
+
+main .best-seller .title {
+    width: 518px;
+    height: 70px;
+    gap: 10px;
+    text-align: left;
+    
+}
+
+main .best-seller .title h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    color: #181818;
+}
+
+main .best-seller .cards-best-seller {
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+    display: flex;
+}
+
+main .best-seller .cards-best-seller .card {
+    width: 262px;
+    height: 340px;
+    left: 926px;
+    padding: 16px 16px;
+    gap: 15px;
+    border-radius: 8px ;
+    border: 0.3px;
+    background-color: #fff;
+}
+
+main .best-seller .cards-best-seller .card img {
+    width: 230px;
+    height: 220px;
+    border-radius: 6px;
+}
+
+main .best-seller .cards-best-seller .card .name-price {
+    width: 230px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+main .best-seller .cards-best-sellerr .card .name-price h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame {
+    width: 230px;
+    height: 22px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame #valor {
+    width: 83px;
+    height: 22px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    text-align: left;
+    color: #3B44F6;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame .promo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 119px;
+    height: 22px;
+    gap: 6px;
+    border-radius: 4px;
+    border: 0.5px;
+    color: #F5F4F9;
+    background-color: #F0F0F0;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame .promo .frame1 {
+    width: 31px;
+    height: 22px;
+    padding: 3px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color:  #FC326F33;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame .promo .frame1 p {
+    width: 25px;
+    height: 16px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16.08px;
+    text-align: left;
+    color: #FC326F;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame .promo span{
+    width: 72px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.76px;
+    text-align: left;
+    color: #7D7D7D;
+    text-decoration: line-through;
+}
+
+main .best-seller .cards-best-seller .card .name-price .frame-free button{
+    width: 127px;
+    height: 30px;
+    padding: 4px;
+    gap: 8px;
+    border-radius: 4px;
+    background-color: #D8DAFD;
+    color: #3B44F6;
+    border: #D8DAFD;
+
+}
+
+main .popular-games {
+    width: 1,280px;
+    height: 908px;
+    top: 2042px;
+    padding: 30px 92px 100px 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .popular-games .title {
+    width: 1,096px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+main .popular-games .title h2 {
+    width: 277px;
+    height: 50px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: left;   
+}
+
+main .popular-games .title a{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: right;
+}
+
+main .popular-games .cards {
+    width: 1,096px;
+    height: 704px;
+    gap: 24px;
+    background-color: #3B44F6;
+}
+
+
+main .popular-games .cards .cards-cima{
+    width: 1,096px;
+    height: 340px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+main .popular-games .cards .card {
+    width: 262px;
+    height: 340px;
+    padding: 16px 16px 24px 16px;
+    gap: 15px;
+    border-radius: 8px;
+    border: 0.3px;
+    border: 0.3px solid #D1D1D1
+}
+
+main .popular-games .cards .cards-cima {
+    width: 1,096px;
+    height: 340px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+main .popular-games .cards .cards-cima .name-price {
+    width: 230px;
+    height: 65px;
+    gap: 17px;
+}
+
+main .popular-games .cards .cards-cima .name-price img {
+    
+}
+
+
